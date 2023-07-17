@@ -1,0 +1,44 @@
+body{
+    background:#CAC8C9; 
+}
+.rojo{
+    background-color: red; /*rgb(255,0,0*/
+}
+
+.verde{
+    background-color: green; /*#00FF00  #0F0*/
+}
+
+.azul{
+    background-color: blue;  /*color conocido*/
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+}
+
+.flex-container{
+    display:flex;
+    min-height: 400px ;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
